@@ -1,0 +1,35 @@
+{
+  "name": "neutrino-typescript-example",
+  "version": "1.0.0",
+  "description": "Example Neutrino TypeScript project",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint --format codeframe --ext mjs,jsx,js,tsx,ts src test && tsc",
+    "start": "npm run build && node build/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidje13/neutrino-typescript-example.git"
+  },
+  "author": "David Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidje13/neutrino-typescript-example/issues"
+  },
+  "homepage": "https://github.com/davidje13/neutrino-typescript-example#readme",
+  "devDependencies": {
+    "@neutrinojs/eslint": "^9.0.0-rc.3",
+    "@neutrinojs/jest": "^9.0.0-rc.3",
+    "@neutrinojs/node": "^9.0.0-rc.3",
+    "@types/jest": "^24.0.15",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "neutrino": "^9.0.0-rc.3",
+    "neutrino-typescript": "git+https://github.com/davidje13/neutrino-typescript.git#semver:^1.0.0",
+    "neutrino-typescript-eslint": "git+https://github.com/davidje13/neutrino-typescript-eslint.git#semver:^1.0.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
