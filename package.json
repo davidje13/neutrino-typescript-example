@@ -26,7 +26,7 @@
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
     "neutrino": "^9.0.0-rc.4",
-    "neutrino-typescript": "git+https://github.com/davidje13/neutrino-typescript.git#semver:^1.0.5",
+    "neutrino-typescript": "git+https://github.com/davidje13/neutrino-typescript.git#semver:^1.0.6",
     "neutrino-typescript-eslint": "git+https://github.com/davidje13/neutrino-typescript-eslint.git#semver:^1.0.1",
     "typescript": "^3.6.4",
     "webpack": "^4.41.2",
