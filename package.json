@@ -19,17 +19,17 @@
   },
   "homepage": "https://github.com/davidje13/neutrino-typescript-example#readme",
   "devDependencies": {
-    "@neutrinojs/eslint": "^9.0.0-rc.4",
-    "@neutrinojs/jest": "^9.0.0-rc.4",
-    "@neutrinojs/node": "^9.0.0-rc.4",
-    "@types/jest": "^24.0.18",
-    "eslint": "^6.6.0",
-    "jest": "^24.9.0",
-    "neutrino": "^9.0.0-rc.4",
-    "neutrino-typescript": "git+https://github.com/davidje13/neutrino-typescript.git#semver:^1.0.6",
-    "neutrino-typescript-eslint": "git+https://github.com/davidje13/neutrino-typescript-eslint.git#semver:^1.0.1",
-    "typescript": "^3.6.4",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "@neutrinojs/eslint": "^9.0.0-rc.5",
+    "@neutrinojs/jest": "^9.0.0-rc.5",
+    "@neutrinojs/node": "^9.0.0-rc.5",
+    "@types/jest": "24.x",
+    "eslint": "6.x",
+    "jest": "24.x",
+    "neutrino": "^9.0.0-rc.5",
+    "neutrino-typescript": "git+https://github.com/davidje13/neutrino-typescript.git#semver:^1.0.9",
+    "neutrino-typescript-eslint": "git+https://github.com/davidje13/neutrino-typescript-eslint.git#semver:^1.0.4",
+    "typescript": "3.7.x",
+    "webpack": "4.x",
+    "webpack-cli": "3.x"
   }
 }
