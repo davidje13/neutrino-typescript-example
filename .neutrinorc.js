@@ -6,7 +6,13 @@ const eslint = require('@neutrinojs/eslint');
 
 module.exports = {
   use: [
-    typescript({ declaration: true }),
+    typescript({ tsconfig: {
+      compilerOptions: {
+        strict: true,
+        allowJs: true,
+        declaration: true,
+      },
+    } }),
     typescriptLint(),
     eslint(),
     jest(),
