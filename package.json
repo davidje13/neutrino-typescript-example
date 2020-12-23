@@ -28,7 +28,7 @@
     "@types/jest": "26.x",
     "eslint": "7.x",
     "jest": "26.x",
-    "neutrino": "9.x",
+    "neutrino": "9.3.x",
     "neutrinojs-typescript": "1.x",
     "neutrinojs-typescript-eslint": "1.x",
     "typescript": "4.0.x",
